@@ -198,7 +198,7 @@
                 e.stopPropagation();
 
             if($(this).attr('title') === 'contact'){
-                scrollTo = document.body.scrollHeight-1100;
+                scrollTo = document.body.scrollHeight - 1050;
             }
             $('html, body').stop().animate({
                 'scrollTop': scrollTo
@@ -232,7 +232,7 @@
     var ssAOS = function() {
         
         AOS.init( {
-            offset: 75,
+            offset: 50,
             duration: 600,
             easing: 'ease-in-sine',
             delay: 300,
